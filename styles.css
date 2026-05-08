@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body{
+    background-color: #F0C7C0;
+    color:black;
+    list-style: 1.6;
+}
+
+/* Header */
+header{
+    background-color:darkturquoise;
+    color: aliceblue;
+    padding: 20px 0;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
